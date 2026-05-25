@@ -1,0 +1,174 @@
+[
+  {
+    "tokens": ["Flooding", "in", "China", "disrupted", "Tesla", "battery", "suppliers"],
+    "entities": [
+      {"type": "EVENT", "start": 0, "end": 1},
+      {"type": "COUNTRY", "start": 2, "end": 3},
+      {"type": "COMPANY", "start": 4, "end": 5},
+      {"type": "PRODUCT", "start": 5, "end": 7}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 0, "tail": 1},
+      {"type": "AFFECTS", "head": 0, "tail": 2},
+      {"type": "DEPENDS_ON", "head": 2, "tail": 3}
+    ]
+  },
+  {
+    "tokens": ["Earthquake", "in", "Taiwan", "forced", "TSMC", "to", "halt", "chip", "production"],
+    "entities": [
+      {"type": "EVENT", "start": 0, "end": 1},
+      {"type": "COUNTRY", "start": 2, "end": 3},
+      {"type": "COMPANY", "start": 4, "end": 5},
+      {"type": "PRODUCT", "start": 7, "end": 8}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 0, "tail": 1},
+      {"type": "AFFECTS", "head": 0, "tail": 2},
+      {"type": "DEPENDS_ON", "head": 2, "tail": 3}
+    ]
+  },
+  {
+    "tokens": ["Samsung", "semiconductor", "factory", "fire", "in", "South", "Korea", "delays", "Apple", "iPhone", "production"],
+    "entities": [
+      {"type": "COMPANY", "start": 0, "end": 1},
+      {"type": "EVENT", "start": 3, "end": 4},
+      {"type": "COUNTRY", "start": 5, "end": 7},
+      {"type": "COMPANY", "start": 8, "end": 9},
+      {"type": "PRODUCT", "start": 9, "end": 10}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 1, "tail": 2},
+      {"type": "AFFECTS", "head": 1, "tail": 0},
+      {"type": "DELAYS", "head": 1, "tail": 3},
+      {"type": "SUPPLIES_TO", "head": 0, "tail": 3}
+    ]
+  },
+  {
+    "tokens": ["Maersk", "shipping", "delays", "at", "Port", "of", "Shanghai", "impact", "global", "supply", "chains"],
+    "entities": [
+      {"type": "COMPANY", "start": 0, "end": 1},
+      {"type": "EVENT", "start": 2, "end": 3},
+      {"type": "PORT", "start": 4, "end": 7}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 1, "tail": 2},
+      {"type": "AFFECTS", "head": 1, "tail": 0}
+    ]
+  },
+  {
+    "tokens": ["US", "sanctions", "against", "China", "threaten", "NVIDIA", "GPU", "exports"],
+    "entities": [
+      {"type": "COUNTRY", "start": 0, "end": 1},
+      {"type": "EVENT", "start": 1, "end": 2},
+      {"type": "COUNTRY", "start": 3, "end": 4},
+      {"type": "COMPANY", "start": 5, "end": 6},
+      {"type": "PRODUCT", "start": 6, "end": 7}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 1, "tail": 0},
+      {"type": "IMPACTS", "head": 1, "tail": 3},
+      {"type": "DEPENDS_ON", "head": 3, "tail": 4}
+    ]
+  },
+  {
+    "tokens": ["Typhoon", "hits", "Japan", "disrupting", "Toyota", "and", "Sony", "manufacturing"],
+    "entities": [
+      {"type": "EVENT", "start": 0, "end": 1},
+      {"type": "COUNTRY", "start": 2, "end": 3},
+      {"type": "COMPANY", "start": 4, "end": 5},
+      {"type": "COMPANY", "start": 6, "end": 7}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 0, "tail": 1},
+      {"type": "AFFECTS", "head": 0, "tail": 2},
+      {"type": "AFFECTS", "head": 0, "tail": 3}
+    ]
+  },
+  {
+    "tokens": ["Cyber", "attack", "on", "Intel", "supplier", "in", "Germany", "compromises", "chip", "supply"],
+    "entities": [
+      {"type": "EVENT", "start": 0, "end": 2},
+      {"type": "COMPANY", "start": 3, "end": 4},
+      {"type": "SUPPLIER", "start": 4, "end": 5},
+      {"type": "COUNTRY", "start": 6, "end": 7},
+      {"type": "PRODUCT", "start": 8, "end": 9}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 0, "tail": 3},
+      {"type": "AFFECTS", "head": 0, "tail": 2},
+      {"type": "SUPPLIES_TO", "head": 2, "tail": 1}
+    ]
+  },
+  {
+    "tokens": ["Lithium", "shortage", "in", "Australia", "threatens", "Tesla", "and", "BMW", "battery", "production"],
+    "entities": [
+      {"type": "PRODUCT", "start": 0, "end": 1},
+      {"type": "EVENT", "start": 1, "end": 2},
+      {"type": "COUNTRY", "start": 3, "end": 4},
+      {"type": "COMPANY", "start": 5, "end": 6},
+      {"type": "COMPANY", "start": 7, "end": 8},
+      {"type": "PRODUCT", "start": 8, "end": 9}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 1, "tail": 2},
+      {"type": "IMPACTS", "head": 1, "tail": 3},
+      {"type": "IMPACTS", "head": 1, "tail": 4},
+      {"type": "DEPENDS_ON", "head": 3, "tail": 0}
+    ]
+  },
+  {
+    "tokens": ["Foxconn", "factory", "shutdown", "in", "India", "affects", "Apple", "iPhone", "deliveries"],
+    "entities": [
+      {"type": "COMPANY", "start": 0, "end": 1},
+      {"type": "EVENT", "start": 2, "end": 3},
+      {"type": "COUNTRY", "start": 4, "end": 5},
+      {"type": "COMPANY", "start": 6, "end": 7},
+      {"type": "PRODUCT", "start": 7, "end": 8}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 1, "tail": 2},
+      {"type": "AFFECTS", "head": 1, "tail": 0},
+      {"type": "DELAYS", "head": 1, "tail": 3},
+      {"type": "SUPPLIES_TO", "head": 0, "tail": 3}
+    ]
+  },
+  {
+    "tokens": ["Suez", "Canal", "blockade", "disrupts", "Maersk", "and", "global", "shipping", "routes"],
+    "entities": [
+      {"type": "PORT", "start": 0, "end": 2},
+      {"type": "EVENT", "start": 2, "end": 3},
+      {"type": "COMPANY", "start": 4, "end": 5}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 1, "tail": 0},
+      {"type": "AFFECTS", "head": 1, "tail": 2}
+    ]
+  },
+  {
+    "tokens": ["ASML", "delays", "semiconductor", "equipment", "shipments", "from", "Netherlands", "to", "TSMC"],
+    "entities": [
+      {"type": "COMPANY", "start": 0, "end": 1},
+      {"type": "PRODUCT", "start": 2, "end": 4},
+      {"type": "COUNTRY", "start": 6, "end": 7},
+      {"type": "COMPANY", "start": 8, "end": 9}
+    ],
+    "relations": [
+      {"type": "SUPPLIES_TO", "head": 0, "tail": 3},
+      {"type": "DEPENDS_ON", "head": 3, "tail": 1}
+    ]
+  },
+  {
+    "tokens": ["Strike", "at", "Volkswagen", "plant", "in", "Germany", "halts", "auto", "parts", "supply"],
+    "entities": [
+      {"type": "EVENT", "start": 0, "end": 1},
+      {"type": "COMPANY", "start": 2, "end": 3},
+      {"type": "COUNTRY", "start": 5, "end": 6},
+      {"type": "PRODUCT", "start": 7, "end": 9}
+    ],
+    "relations": [
+      {"type": "OCCURS_IN", "head": 0, "tail": 2},
+      {"type": "AFFECTS", "head": 0, "tail": 1},
+      {"type": "DEPENDS_ON", "head": 1, "tail": 3}
+    ]
+  }
+]

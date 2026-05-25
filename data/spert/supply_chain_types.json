@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "COMPANY":            { "short": "COMP", "verbose": "Company or Organization" },
+    "SUPPLIER":           { "short": "SUP",  "verbose": "Supplier Entity" },
+    "CUSTOMER":           { "short": "CUS",  "verbose": "Customer Entity" },
+    "COUNTRY":            { "short": "CTRY", "verbose": "Country" },
+    "REGION":             { "short": "REG",  "verbose": "Geographic Region" },
+    "EVENT":              { "short": "EVT",  "verbose": "Disruption Event" },
+    "PORT":               { "short": "PRT",  "verbose": "Port or Logistics Hub" },
+    "PRODUCT":            { "short": "PRD",  "verbose": "Product or Commodity" },
+    "INDUSTRY":           { "short": "IND",  "verbose": "Industry Sector" },
+    "RAW_MATERIAL":       { "short": "RAW",  "verbose": "Raw Material or Commodity" },
+    "LOGISTICS_PROVIDER": { "short": "LOG",  "verbose": "Logistics or Shipping Provider" }
+  },
+  "relations": {
+    "SUPPLIES_TO":  { "short": "SUP", "verbose": "Supplies To",  "symmetric": false },
+    "DEPENDS_ON":   { "short": "DEP", "verbose": "Depends On",   "symmetric": false },
+    "IMPACTS":      { "short": "IMP", "verbose": "Impacts",      "symmetric": false },
+    "AFFECTS":      { "short": "AFF", "verbose": "Affects",       "symmetric": false },
+    "OCCURS_IN":    { "short": "OCC", "verbose": "Occurs In",    "symmetric": false },
+    "PRODUCES":     { "short": "PRD", "verbose": "Produces",     "symmetric": false },
+    "SHIPS_TO":     { "short": "SHP", "verbose": "Ships To",     "symmetric": false },
+    "MANUFACTURES": { "short": "MFG", "verbose": "Manufactures", "symmetric": false },
+    "LOCATED_IN":   { "short": "LOC", "verbose": "Located In",   "symmetric": false },
+    "DELAYS":       { "short": "DLY", "verbose": "Delays",       "symmetric": false },
+    "ALTERNATIVE_TO": { "short": "ALT", "verbose": "Alternative To", "symmetric": true }
+  }
+}

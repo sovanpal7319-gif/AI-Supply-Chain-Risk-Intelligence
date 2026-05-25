@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sample_1",
+    "title": "Taiwan Earthquake Disrupts Semiconductor Production",
+    "text": "A massive 7.4 magnitude earthquake struck Taiwan's east coast today, causing significant damage to semiconductor manufacturing facilities in Hsinchu Science Park. TSMC, the world's largest contract chipmaker, has temporarily halted production at several of its advanced fabrication plants. The disruption is expected to impact global chip supply chains, affecting major customers including Apple, NVIDIA, and Qualcomm. Industry analysts warn that the production shutdown could last several weeks, potentially causing shortages in consumer electronics and automotive sectors worldwide."
+  },
+  {
+    "id": "sample_2",
+    "title": "US Imposes New Trade Sanctions on Chinese Tech Companies",
+    "text": "The United States has announced sweeping new trade sanctions targeting China's technology sector. The sanctions specifically restrict exports of advanced semiconductor equipment to Huawei and other Chinese firms. Companies including Intel, Qualcomm, and Broadcom are now prohibited from selling certain high-performance chips to Chinese customers without special licenses. The move is expected to significantly disrupt supply chains across the electronics and telecommunications industries, with ripple effects anticipated in South Korea, Japan, and Taiwan."
+  },
+  {
+    "id": "sample_3",
+    "title": "Severe Flooding in Thailand Impacts Automotive Parts Production",
+    "text": "Unprecedented flooding in Thailand's central industrial zones has forced the shutdown of multiple automotive parts manufacturing facilities. Major auto parts suppliers including Denso and Aisin have suspended operations at their Thai plants. Toyota and Honda have reported that the flooding has disrupted their just-in-time supply chains, potentially delaying vehicle production across Asia and North America. The flooding in Thailand comes at a critical time as global automakers are already struggling with component shortages."
+  },
+  {
+    "id": "sample_4",
+    "title": "Port Workers Strike Paralyzes European Shipping",
+    "text": "A major strike by port workers across Germany and the Netherlands has brought European shipping to a standstill. Hapag-Lloyd has reported significant delays at Hamburg and Rotterdam ports, affecting container shipments to BMW, Volkswagen, and Siemens facilities. Maersk has rerouted several vessels, causing additional delays. The strike, now in its second week, threatens to disrupt automotive and industrial supply chains across Europe. Bosch and Continental have warned of potential production halts due to delayed component deliveries."
+  },
+  {
+    "id": "sample_5",
+    "title": "Pandemic Outbreak Forces Factory Shutdowns in Vietnam",
+    "text": "A new pandemic outbreak in Vietnam has led to government-mandated factory shutdowns across Ho Chi Minh City and surrounding provinces. Samsung Electronics has been forced to close its massive smartphone assembly plant, while Foxconn has suspended operations at its facilities producing components for Apple and Sony. The shutdown affects a significant portion of global electronics manufacturing capacity. Industry experts estimate that the disruption could impact supply chains for at least 4-6 weeks, with downstream effects on consumer electronics availability worldwide."
+  }
+]
