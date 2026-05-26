@@ -65,7 +65,7 @@ The system implements **two analysis pipelines** orchestrated by a FastAPI backe
 📰 News Text
         │
         ▼
-Step 1  : Enhanced Disruption Extraction (Groq LLM → regex fallback)
+Step 1  : Enhanced Disruption Extraction (Groq LLM →  fallback)
         ▼
 Step 1.5: SPERT NER+RE (11 entity types + 11 relation types → validated)
         ▼
@@ -616,3 +616,4 @@ cd spert && python spert.py train --config ../data/spert/supply_chain_train.conf
 ## 📝 License
 
 This project is for educational and demonstration purposes.
+Updated by Tanmoy
